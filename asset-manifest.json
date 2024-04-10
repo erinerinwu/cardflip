@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cardflip/static/css/main.c5301f8d.css",
+    "main.js": "/cardflip/static/js/main.bd358946.js",
+    "static/js/453.98fcb85a.chunk.js": "/cardflip/static/js/453.98fcb85a.chunk.js",
+    "index.html": "/cardflip/index.html",
+    "main.c5301f8d.css.map": "/cardflip/static/css/main.c5301f8d.css.map",
+    "main.bd358946.js.map": "/cardflip/static/js/main.bd358946.js.map",
+    "453.98fcb85a.chunk.js.map": "/cardflip/static/js/453.98fcb85a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5301f8d.css",
+    "static/js/main.bd358946.js"
+  ]
+}
