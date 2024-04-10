@@ -1,0 +1,21 @@
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 180px;
+    box-sizing: border-box;
+  }
+  
+  @media (min-width: 600px) {
+    .game-board.level-1 {
+      grid-template-columns: repeat(3, 150px); /* 3 columns for Level 1 */
+    }
+    .game-board.level-2 {
+      grid-template-columns: repeat(4, 150px); /* 4 columns for Level 2 */
+    }
+    .game-board.level-3 {
+      grid-template-columns: repeat(4, 150px); /* 4 columns for Level 3, 3 rows will be automatically adjusted */
+    }
+  }
+  

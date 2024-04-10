@@ -1,0 +1,19 @@
+.level-selector {
+    position: absolute;
+    top: 50px; /* Position from the top */
+    right: 50px; /* Position from the right */
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: flex-start; /* Align items to the start of the flex container */
+    z-index: 10; /* Ensure the level selector is above other elements */
+  }
+  
+  .level-selector button {
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    /* Add more styling to match your design */
+  }
+  
